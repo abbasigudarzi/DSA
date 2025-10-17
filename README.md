@@ -1,6 +1,6 @@
 # 🧠 Data Structures and Algorithms
 
-<img width="850" height="478" alt="image" src="https://github.com/user-attachments/assets/167aeecd-efa7-4fb6-8384-b69430862d11" />
+<img width="960" height="400" alt="17174429-34d2-4976-a625-f4ed5e105ae9" src="https://github.com/user-attachments/assets/586f9523-01a8-44f2-992d-f4e533f7180e" />
 
 ---
 
