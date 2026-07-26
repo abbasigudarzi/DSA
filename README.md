@@ -24,8 +24,8 @@ It’s divided into two main parts:
 
 | Tool / Language | Version | Purpose |
 |------------------|----------|----------|
-| ☕ **Java** | 17.0.2 (LTS) | Core language used for implementation |
-| 🧩 **Apache Maven** | 3.9.11 | Build automation and dependency management |
+| ☕ **Java** | 21.0.9 (LTS) | Core language used for implementation |
+| 🧩 **Apache Maven** | 3.9.16 | Build automation and dependency management |
 
 ---
 
