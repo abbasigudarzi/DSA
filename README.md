@@ -72,7 +72,7 @@ It’s divided into two main parts:
 ## 🧑‍💻 Author
 
 **Amirali Abbasi**  
-📍 Passionate about Backend Development, Data Engineering, and Problem Solving.  
+📍 Java Backend Development, Exited about Infrastructral & Cloud Engineering.  
 💼 *Building strong foundations for professional-level software engineering.*
 
 ---
