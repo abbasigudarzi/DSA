@@ -26,6 +26,73 @@ It’s divided into two main parts:
 |------------------|----------|----------|
 | ☕ **Java** | 21.0.9 (LTS) | Core language used for implementation |
 | 🧩 **Apache Maven** | 3.9.16 | Build automation and dependency management |
+| ✅ **JUnit 5** | 5.11.4 | Tests for every implementation |
+
+---
+
+## 🗂️ Project Structure
+
+```
+docs/                                  theory notes, one per topic (start here)
+src/main/java/com/github/codemaster/
+  fundamentals/
+    complexity/    Big O, growth rates, a timing harness
+    arrays/        DynamicArray (ArrayList from scratch), ArrayOps
+    strings/       two pointers, frequency counting, KMP
+    linkedlist/    singly and doubly linked, reversal, Floyd's cycle detection
+    stack/         array and linked stacks, MinStack, bracket matching
+    queue/         circular buffer queue, linked queue, deque
+    hashing/       hash map by chaining and by open addressing
+    tree/          BST, traversals, self-balancing AVL tree, trie
+    heap/          binary heap / priority queue
+    graph/         adjacency list, BFS/DFS, Dijkstra, topological sort, union-find
+    searching/     binary search and its variants
+    sorting/       bubble, selection, insertion, merge, quick, heap, counting
+    recursion/     recursion basics, backtracking (subsets, permutations, n-queens)
+    dp/            memoization vs tabulation, the classic problems
+  patterns/        two pointers, sliding window, prefix sums
+  leetcode/        ← empty on purpose: your own solutions go here
+src/test/java/...                      JUnit tests mirroring every package
+```
+
+Every public method states its **time and space complexity** in its Javadoc, and every package has a `package-info.java` summary that shows up on hover in the IDE.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+mvn test                        # compile and run the whole suite
+mvn test -Dtest=SortingTest     # one topic at a time
+mvn -q compile                  # compile only
+```
+
+Requires JDK 21 or newer.
+
+---
+
+## 📖 The Notes
+
+Long-form theory lives in [`docs/`](docs/README.md) — the idea, the cost, and the mistakes that actually happen.
+
+| # | Note |
+|---|------|
+| 00 | [How to solve a problem](docs/00-how-to-solve-problems.md) |
+| 01 | [Complexity analysis](docs/01-complexity-analysis.md) |
+| 02 | [Arrays and strings](docs/02-arrays-and-strings.md) |
+| 03 | [Linked lists](docs/03-linked-lists.md) |
+| 04 | [Stacks, queues and deques](docs/04-stacks-queues-deques.md) |
+| 05 | [Hashing](docs/05-hashing.md) |
+| 06 | [Trees](docs/06-trees.md) |
+| 07 | [Heaps and priority queues](docs/07-heaps.md) |
+| 08 | [Graphs](docs/08-graphs.md) |
+| 09 | [Searching and sorting](docs/09-searching-and-sorting.md) |
+| 10 | [Recursion and backtracking](docs/10-recursion-and-backtracking.md) |
+| 11 | [Dynamic programming](docs/11-dynamic-programming.md) |
+| 12 | [Pattern cheat sheet](docs/12-patterns-cheatsheet.md) |
+| 13 | [LeetCode workflow](docs/13-leetcode-workflow.md) |
+
+**How to use it:** read the note → read the code with the note open → read the test → delete a method body and rewrite it from scratch. `mvn test` tells you whether you were right.
 
 ---
 
@@ -44,12 +111,14 @@ It’s divided into two main parts:
 - Arrays & Strings  
 - Linked Lists  
 - Stacks, Queues & Deques  
-- Trees & Binary Search Trees  
-- Graphs (BFS, DFS, Dijkstra, etc.)  
+- Trees & Binary Search Trees (plus AVL and tries)  
+- Graphs (BFS, DFS, Dijkstra, topological sort, union-find)  
 - Sorting & Searching Algorithms  
-- Recursion & Dynamic Programming  
+- Recursion, Backtracking & Dynamic Programming  
 - Hashing & HashMaps  
-- Complexity Analysis (Big O Notation)
+- Heaps & Priority Queues  
+- Complexity Analysis (Big O Notation)  
+- Problem-solving patterns (two pointers, sliding window, prefix sums)
 
 ---
 
