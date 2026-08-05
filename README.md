@@ -141,7 +141,7 @@ Long-form theory lives in [`docs/`](docs/README.md) — the idea, the cost, and 
 ## 🧑‍💻 Author
 
 **Amirali Abbasi**  
-📍 Java Backend Development, Exited about Infrastructral & Cloud Engineering.  
+📍 Software Developer.  
 💼 *Building strong foundations for professional-level software engineering.*
 
 ---
